@@ -36,7 +36,7 @@ function writeReview() {
       //get the document for current user.
       currentUser.get().then((userDoc) => {
         var userEmail = userDoc.data().email;
-        db.collection("Reviews")
+        db.collection("reviews")
           .add({
             code: hikeID,
             userID: userID,
