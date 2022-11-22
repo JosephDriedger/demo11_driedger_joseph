@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
+    <title>Joseph's Hiking App</title>
     <meta name="comp1800 template" content="My 1800 App">
 
     <!------------------------>
@@ -34,8 +34,10 @@
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
 </head>
 
 <body>
@@ -47,9 +49,23 @@
     <nav id="navbarPlaceholder"></nav>
 
     <!-- the body of your page goes here -->
-    <div class="container">
-        <h1>Welcome to Hoda Hiking App</h1>
-        <a href="login.html" class="btn btn-info" role="button">Log in</a>
+    <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+                <img src="images/profile.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Profile image"
+                    width="200" height="200" loading="lazy">
+            </div>
+        </div>
+        <h1 class="display-4 fw-bold">Joseph's Hiking App</h1>
+        <h1>#Peaceful #Refreshing #Thrilling</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">A helpful application to write reviews about hiking trails.
+                This project is dedicated to my folks in my martial arts academy. Thank you for your support!
+            </p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Login / Signup</button>
+            </div>
+        </div>
     </div>
 
     <!-- our own footer goes here-->

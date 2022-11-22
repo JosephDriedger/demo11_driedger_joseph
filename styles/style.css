@@ -7,6 +7,39 @@
     cursor: pointer;
 }
 
+.bg-info {
+    background-color: #4B543B !important;
+}
+
+.navbar-light .navbar-brand,  .nav-link {
+    color: #FEFFFE !important;
+}
+
+.btn-primary {
+    background-color: #1F5673;
+    font-size: 150%;
+    border-color: #4B543B;
+    border-width: thick;
+}
+
+body {
+    background-color: #FEFFFE;
+}
+
+.navbar-brand{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 2rem;
+}
+
+.btn-outline-success {
+    color: #FEFFFE;
+    border-color: #FEFFFE;
+}
+
+.navbar-toggler {
+    background-color: #FEFFFE;
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
